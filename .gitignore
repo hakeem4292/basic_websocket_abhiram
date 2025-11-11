@@ -1,0 +1,79 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+db.sqlite3
+media/
+staticfiles/
+static_root/
+.env
+
+# If you collect static files into a separate folder
+/static/
+/media/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pytest_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# MyPy, Pyre, etc.
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Unit test / pytest cache
+__pycache__/
+.pytest_cache/
+.coverage
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# If using Docker
+docker-compose.override.yml
+*.pid
+
+# If using node for frontend
+node_modules/
+build/
+dist/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
